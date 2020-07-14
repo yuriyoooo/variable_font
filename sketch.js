@@ -360,7 +360,7 @@ function draw() {
     //字体播放
     const P = play.value();
     //interaction
-    if(mouseY<700){
+    if(mouseY<800){
     pfat = constrain(map(mouseX,width,0,300,500),300,500);
     rfat = constrain(map(mouseY,height,0,600,900),600,900);
     } 
