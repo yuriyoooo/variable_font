@@ -184,9 +184,9 @@ function setup() {
     
         typtface = select('#Typeface');
         typtface.position(30,3*windowHeight+20);
-        typtface.style('font-size' ,windowWidth/1920*33+'px');
+        typtface.style('font-size' ,windowWidth/1920*31+'px');
         typtface.style('font-family' ,'context');
-        typtface.style('height', 300 +'px');
+        typtface.style('height', 360 +'px');
         typtface.style('width', windowWidth/2-80+'px');
         typtface.style('letter-spacing' ,0.2+'px');
         typtface.style('line-height' ,windowWidth/1920*60+'px');
