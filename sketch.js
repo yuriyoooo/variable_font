@@ -197,20 +197,20 @@ function setup() {
       
       //响应式container
       container1 = select('#container1');
-      container1.style('max-width', windowWidth-260+'px'); 
-      container1.position((windowWidth-windowWidth+260)/2,3.5*windowHeight+120); 
+      container1.style('max-width', windowWidth-280+'px'); 
+      container1.position((windowWidth-windowWidth+280)/2,3.5*windowHeight+130); 
       container2 = select('#container2');
-      container2.style('max-width', windowWidth-260+'px');
-      container2.position((windowWidth-windowWidth+260)/2,4.5*windowHeight+120); 
+      container2.style('max-width', windowWidth-280+'px');
+      container2.position((windowWidth-windowWidth+280)/2,4.5*windowHeight+130); 
       container3 = select('#container3');
-      container3.style('max-width', windowWidth-260+'px');
-      container3.position((windowWidth-windowWidth+260)/2,5.5*windowHeight+120); 
+      container3.style('max-width', windowWidth-280+'px');
+      container3.position((windowWidth-windowWidth+280)/2,5.5*windowHeight+130); 
       container4 = select('#container4');
-      container4.style('max-width', windowWidth-260+'px');
-      container4.position((windowWidth-windowWidth+260)/2,6.5*windowHeight+120); 
+      container4.style('max-width', windowWidth-280+'px');
+      container4.position((windowWidth-windowWidth+280)/2,6.5*windowHeight+130); 
       container5 = select('#container5');
-      container5.style('max-width', windowWidth-260+'px');
-      container5.position((windowWidth-windowWidth+260)/2,7.5*windowHeight+120); 
+      container5.style('max-width', windowWidth-280+'px');
+      container5.position((windowWidth-windowWidth+280)/2,7.5*windowHeight+130); 
     
     
       T1 = select('#t1');
