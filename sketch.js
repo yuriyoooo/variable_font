@@ -360,9 +360,9 @@ function draw() {
     //字体播放
     const P = play.value();
     //interaction
-    if(mouseY<800){
+    if(mouseY<700){
     pfat = constrain(map(mouseX,width,0,300,500),300,500);
-    rfat = constrain(map(mouseY,height,0,700,900),700,900);
+    rfat = constrain(map(mouseY,height,0,650,900),650,900);
     } 
     //中间字体
     if(myBoolean == false){    
@@ -415,7 +415,7 @@ function mouseClicked() {
 //                 if(frameCount % 60 == f+1){
                      t = t-1;
                      pfat = t;
-                     rfat = 400+t;
+                     rfat = 350+t;
 //                 }
 //               t = t+frameCount/60;
 //               pfat = t;
