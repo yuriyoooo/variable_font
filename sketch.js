@@ -42,7 +42,7 @@ function windowResized(){
     
 function setup() {
   
-  sliderM = windowWidth/50;//滑块和侧边的距离
+  sliderM = windowWidth/30;//滑块和侧边的距离
   sliderB = windowHeight/10;//滑块和底部的距离
   sliderP = 25;//滑块间距
   sliderW = windowWidth/6.5;
