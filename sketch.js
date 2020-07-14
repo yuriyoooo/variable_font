@@ -362,7 +362,7 @@ function draw() {
     //interaction
     if(mouseY<700){
     pfat = constrain(map(mouseX,width,0,300,500),300,500);
-    rfat = constrain(map(mouseY,height,0,650,900),650,900);
+    rfat = constrain(map(mouseY,height,0,600,900),700,900);
     } 
     //中间字体
     if(myBoolean == false){    
