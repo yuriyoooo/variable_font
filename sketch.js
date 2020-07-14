@@ -183,7 +183,7 @@ function setup() {
     
     
         typtface = select('#Typeface');
-        typtface.position(30,3*windowHeight+10);
+        typtface.position(30,3*windowHeight+20);
         typtface.style('font-size' ,windowWidth/1920*40+'px');
         typtface.style('font-family' ,'context');
         typtface.style('height', 300 +'px');
@@ -198,19 +198,19 @@ function setup() {
       //响应式container
       container1 = select('#container1');
       container1.style('max-width', windowWidth-260+'px'); 
-      container1.position(120,3.5*windowHeight+100); 
+      container1.position((windowWidth-windowWidth+260)/2,3.5*windowHeight+100); 
       container2 = select('#container2');
       container2.style('max-width', windowWidth-260+'px');
-      container2.position(120,4.5*windowHeight+100); 
+      container2.position((windowWidth-windowWidth+260)/2,4.5*windowHeight+100); 
       container3 = select('#container3');
       container3.style('max-width', windowWidth-260+'px');
-      container3.position(120,5.5*windowHeight+100); 
+      container3.position((windowWidth-windowWidth+260)/2,5.5*windowHeight+100); 
       container4 = select('#container4');
       container4.style('max-width', windowWidth-260+'px');
-      container4.position(120,6.5*windowHeight+100); 
+      container4.position((windowWidth-windowWidth+260)/2,6.5*windowHeight+100); 
       container5 = select('#container5');
       container5.style('max-width', windowWidth-260+'px');
-      container5.position(120,7.5*windowHeight+100); 
+      container5.position((windowWidth-windowWidth+260)/2,7.5*windowHeight+100); 
     
     
       T1 = select('#t1');
